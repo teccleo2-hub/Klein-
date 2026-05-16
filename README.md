@@ -87,7 +87,7 @@ npm run dev
 
 Click the button below to deploy directly to Heroku:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/FLEKO-X-BOT)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/teccleo2-hub/Klein-)
 
 ### Option 2: Manual Deployment
 
