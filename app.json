@@ -1,0 +1,94 @@
+{
+  "name": "FLEKO-X BOT",
+  "description": "A powerful WhatsApp bot with session management and advanced features. Only SESSION_ID is required for deployment.",
+  "repository": "https://github.com/yourusername/FLEKO-X-BOT",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "fleko-x",
+    "automation"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID (Required for the bot to connect)",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix (Optional)",
+      "value": ".",
+      "required": false
+    },
+    "MODE": {
+      "description": "Bot mode (public/private)",
+      "value": "public",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Name of your bot",
+      "value": "FLEKO-X BOT",
+      "required": false
+    },
+    "OWNER_NAME": {
+      "description": "Your name",
+      "value": "Not Set!",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number",
+      "value": "254758301051",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your local timezone",
+      "value": "Africa/Nairobi",
+      "required": false
+    },
+    "ALWAYSONLINE": {
+      "description": "Keep bot status as online (ON/OFF)",
+      "value": "ON",
+      "required": false
+    },
+    "AUTOBIO": {
+      "description": "Auto-update bot bio (ON/OFF)",
+      "value": "OFF",
+      "required": false
+    },
+    "ANTICALL": {
+      "description": "Reject incoming calls (ON/OFF)",
+      "value": "OFF",
+      "required": false
+    },
+    "ANTIDELETE": {
+      "description": "Detect deleted messages (all/private/off)",
+      "value": "private",
+      "required": false
+    },
+    "ANTIEDIT": {
+      "description": "Detect edited messages (all/private/off)",
+      "value": "private",
+      "required": false
+    },
+    "WATERMARK": {
+      "description": "Custom watermark for responses",
+      "value": "©FLEKO-X 🔥",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "stack": "heroku-22",
+  "engines": {
+    "node": "18.x || 20.x",
+    "npm": "9.x || 10.x"
+  }
+}

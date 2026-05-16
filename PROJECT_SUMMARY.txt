@@ -1,0 +1,37 @@
+=== FLEKO-X BOT PROJECT SUMMARY ===
+
+FLEKO-X BOT is a comprehensive WhatsApp bot solution designed for easy deployment on Heroku. It features a robust session management system, advanced automation, and a wide array of security and group management tools.
+
+--- PROJECT FILES ---
+
+1.  index.js: The main entry point of the bot, containing the core logic, WhatsApp connection handling, and web API endpoints.
+2.  config.js: Centralized configuration file that manages all bot settings and environment variables.
+3.  package.json: Defines project dependencies and scripts for starting the bot and generating sessions.
+4.  public/index.html: A web-based session manager that allows users to generate and manage their Session IDs through a user-friendly interface.
+5.  scripts/generateSession.js: A command-line utility for generating Session IDs and authenticating with WhatsApp.
+6.  Procfile: Configuration for Heroku to run the bot as a web process.
+7.  app.json: Heroku deployment manifest defining environment variables and buildpacks.
+8.  .env.example: A template for environment variables required for local development and deployment.
+9.  .gitignore: Specifies files and directories to be ignored by Git.
+10. runtime.txt: Specifies the Node.js version for Heroku.
+
+--- KEY FEATURES ---
+
+- Session Management: Secure Session ID system with both web and CLI generators.
+- Automation: Always Online, Auto-Bio, Auto-Read, Auto-Type, Auto-Record, and Status Automations (View/React).
+- Security: Anti-Delete, Anti-Edit, Anti-Call, Anti-Bug, and Anti-Sticker features.
+- Group Management: Welcome/Goodbye messages, Admin tools (Kick/Promote/Demote), and Group Info.
+- Customization: Fully customizable prefix, bot name, owner info, watermark, and menu styles.
+- Deployment: Optimized for Heroku with one-click deployment support via app.json.
+
+--- DOCUMENTATION ---
+
+- README.md: General project overview and setup instructions.
+- QUICKSTART.md: A fast-track guide to getting the bot up and running.
+- DEPLOYMENT_GUIDE.md: Detailed instructions for deploying to Heroku.
+- FEATURES.md: A comprehensive list of all bot features and commands.
+- CONFIG_GUIDE.md: A guide to configuring the bot's many settings.
+- PROJECT_STRUCTURE.md: An overview of the project's directory and file layout.
+- TROUBLESHOOTING.md: Solutions for common issues and errors.
+
+FLEKO-X BOT is built with Node.js and the Baileys library, ensuring high performance and reliability.
