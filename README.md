@@ -2,7 +2,7 @@
 
 A powerful, feature-rich WhatsApp bot built with Node.js and Baileys, designed for easy deployment on Heroku with complete session management support.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/teccleo2-hub/Klein-/FLEKO-X-BOT)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/teccleo2-hub/Klein)
 
 ## 🚀 Automatic Deployment (Forking System)
 
