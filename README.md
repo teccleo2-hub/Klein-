@@ -39,8 +39,7 @@ To deploy your own instance of FLEKO-X BOT automatically:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/FLEKO-X-BOT.git
-cd FLEKO-X-BOT
+https://github.com/teccleo2-hub/Klein-
 ```
 
 2. **Install dependencies**
